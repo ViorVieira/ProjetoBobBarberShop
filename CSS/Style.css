@@ -13,6 +13,11 @@
     height: 40vh;
 }
 
+#sec4{
+    height: 30vh;
+    padding-top: 10vh;
+}
+
 
 .destaque {
     width: 100vh;
@@ -31,4 +36,6 @@
     margin-bottom: 15px;
 }
 
-
+.foto-galeria{
+    padding: 15px;
+}
