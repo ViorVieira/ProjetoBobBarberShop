@@ -5,13 +5,18 @@
 }
 
 #sec2{
-    height: 70vh;
+    height: 30vh;
     padding-top: 10vh;
+}
+
+#sec3{
+    height: 40vh;
 }
 
 
 .destaque {
-    height: 30vh;
+    width: 100vh;
+    height: 20vh;
     background-color: black;
     color: aliceblue;
     font-size: 20px;
@@ -20,6 +25,10 @@
 .destaque > p {
     width: 50vw;
     line-height: normal;
+}
+
+.card{
+    margin-bottom: 15px;
 }
 
 
