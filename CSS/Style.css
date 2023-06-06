@@ -9,15 +9,27 @@
     padding-top: 10vh;
 }
 
-#sec3{
+/* #sec3{
     height: 40vh;
-}
+} */
 
 #sec4{
     height: 30vh;
     padding-top: 10vh;
 }
 
+#sec5{
+    height: 30vh;
+    padding-top: 10vh;
+    font-size: 30px;
+}
+
+
+.bckgrnd{
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+}
 
 .destaque {
     width: 100vh;
@@ -38,4 +50,22 @@
 
 .foto-galeria{
     padding: 15px;
+}
+
+.foto-galeria-Prof{
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.paragrafo{
+    color: aliceblue;
+}
+
+.titulo{
+    color: rgb(100, 46, 10);
+}
+
+.persona{
+    width: 250px;
+    margin-top: 30px;
 }
