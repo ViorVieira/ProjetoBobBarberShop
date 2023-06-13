@@ -1,71 +1,134 @@
 
 
-.sec{
-    height: 100vh;
-}
+    .sec{
+        height: 100vh;
+    }
 
-#sec2{
-    height: 30vh;
-    padding-top: 10vh;
-}
+    #sec1{
+        padding-top: 120px;
+    }
 
-/* #sec3{
-    height: 40vh;
-} */
+    #sec2{
+        height: 30vh;
+        padding-top: 10vh;
+    }
 
-#sec4{
-    height: 30vh;
-    padding-top: 10vh;
-}
+    /* #sec3{
+        height: 40vh;
+    } */
 
-#sec5{
-    height: 30vh;
-    padding-top: 10vh;
-    font-size: 30px;
-}
+    #sec4{
+        min-height: 30vh;
+        padding-top: 10vh;
+    }
+
+    #sec5{
+        height: 30vh;
+        padding-top: 10vh;
+        font-size: 30px;
+    }
+
+    #prof{
+        padding-top: 5vh;
+    }
+
+    #btnLog{
+        margin-right: 30px;
+        border: #A37A46;
+        color: #A37A46;
+    }
+
+    #btnAgend{
+        background-color: #A37A46;
+        border: #A37A46;
+    }
+
+    #btnAgend:hover{
+        background-color: #d1a66e;
+    }
+
+    #btnAgen{
+        background-color: #8A1921;
+        width: 260px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    #btnAgen:hover{
+        background-color: #7B020B;
+    }
 
 
-.bckgrnd{
-    background-color: black;
-    width: 100vw;
-    height: 50vh;
-}
+    .botoes{
+        margin-right: 200px;
+    }
 
-.destaque {
-    width: 100vh;
-    height: 20vh;
-    background-color: black;
-    color: aliceblue;
-    font-size: 20px;
-}
 
-.destaque > p {
-    width: 50vw;
-    line-height: normal;
-}
+    .bckgrnd{
+        background-color: black;
+        width: 100vw;
+        height: 50vh;
+    }
 
-.card{
-    margin-bottom: 15px;
-}
+    .destaque {
+        width: 100vh;
+        min-height: 20vh;
+        background-color: black;
+        color: aliceblue;
+        font-size: 20px;
+    }
 
-.foto-galeria{
-    padding: 15px;
-}
+    .destaque > p {
+        width: 50vw;
+        line-height: normal;
+    }
 
-.foto-galeria-Prof{
-    margin-right: 10vw;
-    margin-left: 10vw;
-}
+    .card{
+        margin-bottom: 15px;
+    }
 
-.paragrafo{
-    color: aliceblue;
-}
+    .foto-galeria{
+        padding: 15px;
+    }
 
-.titulo{
-    color: rgb(100, 46, 10);
-}
+    .foto-galeria-Prof{
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
 
-.persona{
-    width: 250px;
-    margin-top: 30px;
-}
+    .paragrafo{
+        color: aliceblue;
+    }
+
+    .titulo{
+        color: rgb(100, 46, 10);
+    }
+
+    .persona{
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .img-cli{
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+
+    .comentario{
+        width: 40vw;
+    }
+
+    .linkFooter{
+        color: #A37A46;
+        text-decoration: none;
+        line-height: 40px;
+    }
