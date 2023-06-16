@@ -32,6 +32,10 @@
         font-size: 30px;
     }
 
+    #sec6{
+        padding-top: 20vh;
+    }
+
     #prof{
         padding-top: 5vh;
     }
@@ -62,6 +66,9 @@
         background-color: #7B020B;
     }
 
+    #formulario-contato{
+        margin-left: 6vw;
+    }
 
     .botoes{
         margin-right: 200px;
@@ -188,4 +195,49 @@
 
     .formulario{
         width: 500px;
+    }
+
+    .form-area{
+        /* Layout Properties */
+        top: 601px;
+        left: 140px;
+        width: 100%;
+        height: 336px;
+        /* UI Properties */
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-393939);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: inset 0px 2px 8px #00000029;
+        border: 1px solid #393939;
+        border-radius: 4px;
+        opacity: 1;
+    }
+
+    .btn-contato{
+        /* Layout Properties */
+        top: 961px;
+        left: 140px;
+        width: 164px;
+        height: 64px;
+        /* UI Properties */
+        background: var(--unnamed-color-c2c2c2) 0% 0% no-repeat padding-box;
+        background: #C2C2C2 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        margin-bottom: 2vh;
+        color: aliceblue;
+    }
+
+    .btn-contato:hover{
+        /* Layout Properties */
+        top: 961px;
+        left: 140px;
+        width: 164px;
+        height: 64px;
+        /* UI Properties */
+        background: var(--unnamed-color-8a1921) 0% 0% no-repeat padding-box;
+        background: #8A1921 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        color: aliceblue;
     }
