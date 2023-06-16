@@ -12,20 +12,36 @@
 
 <body>
     <main class="container-fluid">
-        <section class="row">
-            <div class="col-md-5" style="overflow: hidden; padding: 0;" >
+        <section class="row" style="height: 100vh;">
+            <img class="d-block d-sm-none" src="../Imagem/logo-bob-dourado.png" alt="">
+            <div class="col-md-5 d-none d-sm-block" style="overflow: hidden; padding: 0;" >
                 <img src="../Imagem/Background/background_21.jpeg" style="height: 100vh;">
             </div>
-            <div class="col">
-                <h2> Fazer Login</h2>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label"><strong>Uasuário ou Email</strong></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-                  </div>
-                  <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label"><strong>Senha</strong></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-                  </div>
+            <div class="col d-flex justify-content-center">
+                <div class="formulario" style="margin-top: auto; margin-bottom: auto;">
+                    <h2><strong>Fazer Login</strong></h2>
+                    <div class="row mb-3" style="margin-top: 30px;">
+                        <div class="col-md-6 col-lg-12">
+                            <label for="formGroupExampleInput" class="form-label form-campo"><strong>Uasuário ou Email</strong></label>
+                            <input type="text" class="form-control inp" id="formGroupExampleInput" placeholder="Usuário ou E-mail">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 col-lg-12">
+                            <label for="formGroupExampleInput2" class="form-label form-campo"><strong>Senha</strong></label>
+                            <input type="text" class="form-control inp" id="formGroupExampleInput2" placeholder="Senha">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6 col-lg-12">
+                            <button class="btn-login">ENTRAR</button>
+                            <P>Esqueceu sua senha?</P>
+                            <hr>
+                            <P>Não tem cadastro?</P>
+                            <button class="btn-cadastro">CADASTRE-SE</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
